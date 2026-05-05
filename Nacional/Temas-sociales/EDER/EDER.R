@@ -1,5 +1,8 @@
+########Análisis EDER#######
+
 library(pacman)
-p_load(readr, tidyverse, srvyr)
+p_load(readr, tidyverse, srvyr, survey, survival)
+
 
 df_informante <- read_csv("EDER/informante.csv")
 df_antecedentes <- read_csv("EDER/antecedentes.csv")
@@ -54,7 +57,7 @@ ggplot(estimacion_inicio_sexual, aes(x = cohorte, y = edad_media, color = cohort
   theme(legend.position = "none")
 
 
-#Cambios en pnúmero de hijos
+#Cambios en número de hijos
 
 estimacion_fecundidad <- eder_diseno %>%
   group_by(cohorte) %>%
@@ -91,7 +94,141 @@ ggplot(estimacion_anticoncepcion, aes(x = cohorte, y = porcentaje)) +
        x = "Cohorte", y = "Porcentaje de la población (%)")
 
 
-######## Traajo y educación
+#Edad de la primer unión 
+df_superv_union <- df_nupcialidad_edad %>%
+  mutate(
+    evento_union = ifelse(is.na(edad_primera_union), 0, 1),
+    tiempo_union = ifelse(is.na(edad_primera_union), as.numeric(edad_act), as.numeric(edad_primera_union))
+  ) %>%
+  filter(!is.na(cohorte) & !is.na(factor_per) & !is.na(upm) & !is.na(est_dis))
+
+
+eder_dsgn_union <- svydesign(
+  id = ~upm,
+  strata = ~est_dis,
+  weights = ~factor_per,
+  nest = TRUE,
+  data = df_superv_union
+)
+
+km_union <- svykm(Surv(tiempo_union, evento_union) ~ cohorte, design = eder_dsgn_union)
+
+
+medianas_nupcialidad <- sapply(km_union, quantile, probs = 0.5)
+
+df_medianas_union <- data.frame(
+  cohorte = str_remove(names(medianas_nupcialidad), "cohorte="),
+  edad_mediana = as.numeric(medianas_nupcialidad)
+)
+
+print(df_medianas_union)
+
+df_medianas_union %>% 
+  mutate(cohorte = case_when(cohorte== "18-29 años.0.5" ~ "18-29 años",
+                             cohorte == "30-44 años.0.5" ~ "30-44 años",
+                             cohorte == "45-64 años.0.5" ~ "45-64 años",
+                             TRUE ~ NA_character_)) %>% 
+ggplot(aes(x = cohorte, y = edad_mediana, fill = cohorte)) +
+  geom_col(width = 0.6) +
+  geom_text(
+    aes(
+      label = ifelse(is.na(edad_mediana), "Aún no \nalcanza \nel 50%", sprintf("%.1f años", edad_mediana)),
+      y = ifelse(is.na(edad_mediana), 5, edad_mediana)
+    ), 
+    vjust = -0.5, fontface = "bold", size = 4
+  ) +
+  scale_fill_brewer(palette = "Accent") +
+  theme_minimal() +
+  labs(
+    title = "Edad Mediana a la Primera Unión",
+    subtitle = "Estimación Kaplan-Meier",
+    x = "Cohorte Generacional",
+    y = "Edad Mediana (Años)"
+  ) +
+  theme(legend.position = "none") +
+  coord_cartesian(ylim = c(0, max(df_medianas_union$edad_mediana, na.rm = TRUE) + 3))
+
+
+# Independencia
+
+
+df_supervivencia <- df_informante %>%
+  mutate(
+    cohorte = case_when(
+      edad_act >= 18 & edad_act <= 29 ~ "18-29 años",
+      edad_act >= 30 & edad_act <= 44 ~ "30-44 años",
+      edad_act >= 45 & edad_act <= 64 ~ "45-64 años",
+      TRUE ~ NA_character_
+    ),
+    evento_salida = ifelse(edad_dejar == 99, 0, 1),
+    tiempo_salida = ifelse(edad_dejar == 99, edad_act, as.numeric(edad_dejar))
+  ) %>%
+  filter(!is.na(cohorte) & !is.na(factor_per) & !is.na(upm) & !is.na(est_dis))
+
+
+eder_dsgn <- svydesign(
+  id = ~1,
+  strata = ~est_dis,
+  weights = ~factor_per,
+  nest = TRUE,
+  data = df_supervivencia
+)
+
+# ESTIMADOR DE KAPLAN-MEIER
+km_fit <- svykm(Surv(tiempo_salida, evento_salida) ~ cohorte, design = eder_dsgn)
+
+
+plot(km_fit,
+     pars = list(col = c("#e74c3c", "#3498db", "#2ecc71"), lwd = 2.5),
+     xlab = "Edad",
+     ylab = "Proporción que permanece en el hogar de los padres",
+     main = "Calendario de Emancipación por Cohorte Generacional\n(Estimador Kaplan-Meier)")
+
+legend("bottomleft",
+       legend = c("18-29 años", "30-44 años", "45-64 años"),
+       col = c("#e74c3c", "#3498db", "#2ecc71"),
+       lty = 1, 
+       lwd = 2.5,
+       bty = "n")
+
+salida <- sapply(km_fit, quantile, probs = 0.5)
+
+df_medianas <- data.frame(
+  cohorte = str_remove(names(salida), "cohorte="),
+  edad_mediana = as.numeric(salida))
+
+df_medianas
+
+grafica_medianas <- ggplot(df_medianas, aes(x = cohorte, y = edad_mediana, fill = cohorte)) +
+  geom_col(width = 0.6) +
+  geom_text(
+    aes(
+      label = ifelse(is.na(edad_mediana), "Aún no \nalcanza \nel 50%", sprintf("%.1f años", edad_mediana)),
+      y = ifelse(is.na(edad_mediana), 5, edad_mediana) 
+    ), 
+    vjust = -0.5, 
+    fontface = "bold",
+    size = 4
+  ) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal() +
+  labs(
+    title = "Edad Mediana de Independencia Residencial",
+    subtitle = "Edad a la que el 50% de la generación ya había salido del hogar (Kaplan-Meier)",
+    x = "Cohorte Generacional",
+    y = "Edad Mediana (Años)"
+  ) +
+  theme(
+    legend.position = "none",
+    axis.text = element_text(size = 11),
+    plot.title = element_text(face = "bold")
+  )
+
+grafica_medianas
+
+
+
+######## Trabajo y educación
 
 
 df_analisis_socioecon <- df_completa %>%
@@ -117,9 +254,7 @@ df_analisis_socioecon <- df_completa %>%
   ) %>%
   filter(!is.na(cohorte) & !is.na(factor_per.x) & !is.na(upm.x) & !is.na(est_dis.x))
 
-# ---------------------------------------------------------
-# 2. DECLARACIÓN DEL DISEÑO MUESTRAL CON SRVYR
-# ---------------------------------------------------------
+
 eder_diseno_se <- df_analisis_socioecon %>%
   as_survey_design(
     strata = est_dis.x,
