@@ -289,40 +289,7 @@ ggplot(estimacion_educacion, aes(x = cohorte, y = porcentaje, fill = generacion)
        y = "Porcentaje (%)",
        fill = "Generación")
 
-# --- GRÁFICO 2: Transición Ocupacional (De lo Agrícola a lo Profesional) ---
-# Comparamos la ocupación del informante vs la del padre en la misma cohorte
-estimacion_ocupacion <- eder_diseno_se %>%
-  group_by(cohorte) %>%
-  summarise(
-    # Porcentaje en sector agrícola
-    pct_agricola_info = survey_mean(sector_info == "Agrícola", na.rm = TRUE) * 100,
-    pct_agricola_padre = survey_mean(sector_padre == "Agrícola", na.rm = TRUE) * 100,
-    
-    # Porcentaje en sector profesional
-    pct_prof_info = survey_mean(sector_info == "Profesionales/Directivos", na.rm = TRUE) * 100,
-    pct_prof_padre = survey_mean(sector_padre == "Profesionales/Directivos", na.rm = TRUE) * 100
-  )
 
-# Preparamos los datos para un gráfico facetado
-df_plot_occ <- estimacion_ocupacion %>%
-  select(cohorte, pct_agricola_info, pct_agricola_padre, pct_prof_info, pct_prof_padre) %>%
-  pivot_longer(-cohorte, names_to = "variable", values_to = "porcentaje") %>%
-  mutate(
-    Sector = ifelse(str_detect(variable, "agricola"), "Agrícola", "Profesional/Directivo"),
-    Generacion = ifelse(str_detect(variable, "info"), "Informante", "Padre")
-  )
-
-ggplot(df_plot_occ, aes(x = cohorte, y = porcentaje, fill = Generacion)) +
-  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
-  facet_wrap(~Sector, scales = "free_y") +
-  scale_fill_manual(values = c("Informante" = "#27ae60", "Padre" = "#95a5a6")) +
-  theme_minimal() +
-  labs(title = "Cambio Estructural en el Empleo por Cohortes",
-       subtitle = "Comparación de la ocupación principal: Padres vs. Informantes",
-       x = "Cohorte del Informante",
-       y = "Porcentaje (%)",
-       fill = "Generación") +
-  theme(strip.text = element_text(face = "bold", size = 12))
 
 
 
