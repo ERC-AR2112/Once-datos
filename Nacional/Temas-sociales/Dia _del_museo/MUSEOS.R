@@ -1,23 +1,23 @@
 ###Día del museo
 library(foreign)
 library(tidyverse)
-base_museos <- read.dbf("Día_Museo/Tablas de microdatos/museos24.dbf")
-base_visita <- read.dbf("Día_Museo/Tablas de microdatos/visita24.dbf")
+base_museos <- read.dbf("Día_Museo/Tablas de microdatos/museos25.dbf")
+base_visita <- read.dbf("Día_Museo/Tablas de microdatos/visita25.dbf")
 base_museos %>% 
   glimpse()
 
 
 base_visita %>% glimpse()
 
-isita_piramide <- base_visita %>% 
+# Piramide de vistantes por sexo
+
+visita_piramide <- base_visita %>% 
   filter(EDAD < 99, SEXO %in% c(1, 2)) %>% 
   mutate(
-    # Crear rangos quinquenales para una pirámide limpia
     Grupo_Edad = cut(EDAD, breaks = seq(10, 100, by = 5), right = FALSE),
     Sexo_cat = case_when(SEXO == 1 ~ "Hombres", SEXO == 2 ~ "Mujeres")
   ) %>% 
   count(Grupo_Edad, Sexo_cat) |>
-  # Invertir el conteo de hombres para el efecto espejo de la pirámide
   mutate(n = if_else(Sexo_cat == "Hombres", -n, n)) %>% 
   drop_na(Grupo_Edad)
 
@@ -25,7 +25,7 @@ visita_piramide %>%
 ggplot(aes(x = Grupo_Edad, y = n, fill = Sexo_cat)) +
   geom_col() +
   coord_flip() +
-  scale_y_continuous(labels = abs) + # Mostrar números absolutos en el eje
+  scale_y_continuous(labels = abs) + 
   scale_fill_manual(values = c("Hombres" = "#0072B2", "Mujeres" = "red3")) +
   theme_minimal() +
   labs(
@@ -36,6 +36,7 @@ ggplot(aes(x = Grupo_Edad, y = n, fill = Sexo_cat)) +
     fill = "Género"
   )
 
+# Gráfica motivaciones
 motivaciones <- base_visita %>% 
   select(starts_with("MV_")) %>% 
   # Sumar menciones donde el valor es 1 (Con motivo)
@@ -66,6 +67,8 @@ ggplot(aes(x = Frecuencia, y = Motivo)) +
     y = NULL
   )
 
+
+# Gráfica inclusión
 accesibilidad <- base_museos %>% 
   select(ACC_AUDIT, ACC_MOTRIZ, ACC_COGNI, ACC_VISUAL) |>
   summarise(across(everything(), ~mean(.x == 1, na.rm = TRUE) * 100)) %>% 
@@ -88,11 +91,12 @@ ggplot(accesibilidad, aes(x = reorder(Tipo, -Porcentaje), y = Porcentaje, fill =
     y = NULL
   )
 
+## Gráfica de apertura de museos
 base_museos %>% count(as.numeric(A_APERTURA))
 
 base_museos %>% 
   ggplot(aes(x = A_APERTURA)) +
-  geom_bar(binwidth = 5, fill = "#CC79A7", color = "white") +
+  geom_bar(fill = "#CC79A7", color = "white") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   labs(
@@ -106,7 +110,7 @@ base_museos %>%
   filter(A_APERTURA == "1785") %>% 
   select(NOM_MUSEO, ENTIDAD, A_APERTURA)
 
-
+##Gráficas por tematica del museo
   tematicas <- base_museos %>% 
     count(TEMA_PRINC) %>% 
     drop_na(TEMA_PRINC) %>% 
@@ -126,10 +130,8 @@ base_museos %>%
     filter(Tematica != "No especificado") %>% 
     mutate(Tematica = fct_reorder(Tematica, n))
   
-  # Renderizado del gráfico
   ggplot(tematicas, aes(x = n, y = Tematica)) +
     geom_col(fill = "#CC79A7", width = 0.7) +
-    # Se añaden etiquetas con la cifra exacta al final de cada barra
     geom_text(aes(label = n), hjust = -0.2, size = 3.5, fontface = "bold", color = "black") +
     theme_minimal() +
     labs(
@@ -138,11 +140,8 @@ base_museos %>%
       x = "Número de recintos",
       y = NULL
     ) +
-    # Ajuste de la escala para evitar que las etiquetas numéricas se corten en el margen derecho
     scale_x_continuous(expand = expansion(mult = c(0, 0.15))) +
     theme(
       plot.title = element_text(face = "bold"),
       axis.text.y = element_text(size = 10, color = "black")
     )
-
-  
