@@ -1,0 +1,219 @@
+iso_code,country,co2_acum_fosil_mt,co2_acum_total_mt,pct_calentamiento,aporte_temp_c,co2_pc_actual_t,poblacion,co2_acum_pc_t,continente,region,pais_es
+ABW,Aruba,75.769,NA,0.002,0,8.518,108076,NA,Americas,Latin America & Caribbean,Aruba
+AFG,Afghanistan,242.635,611.708,0.08,0.001,0.254,42647502,14.343348878909719,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Afganistán
+AGO,Angola,739.588,5374.209,0.339,0.006,0.589,37885854,141.8526556112474,Africa,Sub-Saharan Africa,Angola
+AIA,Anguilla,3.588,NA,0,0,10.127,14623,NA,Americas,Latin America & Caribbean,Anguila
+ALB,Albania,307.938,548.292,0.026,0,1.592,2791756,196.396819779379,Europe,Europe & Central Asia,Albania
+AND,Andorra,16.655,17.131,0.001,0,5.182,81955,209.02934537246048,Europe,Europe & Central Asia,Andorra
+ARE,United Arab Emirates,5824.24,5825.851,0.24,0.004,20.131,11027135,528.3195499102894,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Emiratos Árabes Unidos
+ARG,Argentina,9151.537,23021.918,0.96,0.016,3.743,45696153,503.80429179672956,Americas,Latin America & Caribbean,Argentina
+ARM,Armenia,406.69,512.609,0.02,0,2.499,2973843,172.37258321975978,Asia,Europe & Central Asia,Armenia
+ATA,Antarctica,0.154,NA,0,0,NA,NA,NA,Antarctica,NA,Antártida
+ATG,Antigua and Barbuda,26.92,17.829,0.001,0,7.092,93782,190.11110874154954,Americas,Latin America & Caribbean,Antigua y Barbuda
+AUS,Australia,20039.67,34012.734,1.514,0.025,14.477,26713206,1273.2554078308683,Oceania,East Asia & Pacific,Australia
+AUT,Austria,5749.663,5969.547,0.192,0.003,6.18,9120815,654.4971036031319,Europe,Europe & Central Asia,Austria
+AZE,Azerbaijan,2637.138,3227.686,0.12,0.002,3.853,10336577,312.25869066713284,Asia,Europe & Central Asia,Azerbaiyán
+BDI,Burundi,16.688,327.33,0.022,0,0.065,14047788,23.301177381093733,Africa,Sub-Saharan Africa,Burundi
+BEL,Belgium,12906.185,13181.008,0.405,0.007,7.28,11738761,1122.861944288669,Europe,Europe & Central Asia,Bélgica
+BEN,Benin,128.382,1744.437,0.048,0.001,0.419,14462721,120.61609983349607,Africa,Sub-Saharan Africa,Benín
+BES,Bonaire Sint Eustatius and Saba,10.627,NA,0,0,4.947,30699,NA,Americas,Latin America & Caribbean,Caribe neerlandés
+BFA,Burkina Faso,95.79,1352.617,0.092,0.002,0.276,23548782,57.43893675689893,Africa,Sub-Saharan Africa,Burkina Faso
+BGD,Bangladesh,2000.965,3716.556,0.378,0.006,0.624,173562366,21.413374832652373,Asia,South Asia,Bangladés
+BGR,Bulgaria,3984.196,4990.108,0.163,0.003,4.679,6757686,738.4344285899049,Europe,Europe & Central Asia,Bulgaria
+BHR,Bahrain,1112.192,1112.201,0.088,0.001,24.27,1607059,692.072288571857,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Baréin
+BHS,Bahamas,180.56,182.773,0.006,0,7.65,401282,455.4727099645636,Americas,Latin America & Caribbean,Bahamas
+BIH,Bosnia and Herzegovina,1043.488,1271.659,0.057,0.001,6.139,3164256,401.88246462991617,Europe,Europe & Central Asia,Bosnia y Herzegovina
+BLR,Belarus,5184.231,10072.118,0.338,0.006,6.163,9056696,1112.1183707612577,Europe,Europe & Central Asia,Bielorrusia
+BLZ,Belize,22.518,375.246,0.013,0,1.909,417077,899.7043711353059,Americas,Latin America & Caribbean,Belice
+BMU,Bermuda,31.025,NA,0.001,0,8.506,64660,NA,Americas,North America,Bermudas
+BOL,Bolivia,641.184,7595.995,0.278,0.005,2.313,12413318,611.923016875907,Americas,Latin America & Caribbean,Bolivia
+BRA,Brazil,18198.707,139444.312,5.251,0.088,2.278,211998565,657.76064097415,Americas,Latin America & Caribbean,Brasil
+BRB,Barbados,63.875,64.108,0.002,0,4.833,282476,226.9502541808862,Americas,Latin America & Caribbean,Barbados
+BRN,Brunei,427.762,515.56,0.022,0,26.046,462734,1114.1606192758688,Asia,East Asia & Pacific,Brunéi
+BTN,Bhutan,29.797,697.167,0.03,0,2.094,791530,880.7840511414602,Asia,South Asia,Bután
+BWA,Botswana,184.336,295.974,0.039,0.001,2.96,2521145,117.39665905769006,Africa,Sub-Saharan Africa,Botsuana
+CAF,Central African Republic,12.341,755.866,0.076,0.001,0.074,5330691,141.79512562255061,Africa,Sub-Saharan Africa,República Centroafricana
+CAN,Canada,35644.129,76041.891,2.271,0.038,13.42,39742429,1913.3679775838564,Americas,North America,Canadá
+CHE,Switzerland,3158.062,3413.798,0.113,0.002,3.595,8921979,382.6278900678874,Europe,Europe & Central Asia,Suiza
+CHL,Chile,3324.852,7816.921,0.249,0.004,3.983,19764774,395.49761611238256,Americas,Latin America & Caribbean,Chile
+CHN,China,285087.031,359646.906,12.951,0.217,8.658,1419321284,253.3935832952675,Asia,East Asia & Pacific,China
+CIV,Cote d'Ivoire,400.111,10430.467,0.269,0.005,0.464,31934229,326.6234171490409,Africa,Sub-Saharan Africa,Côte d’Ivoire
+CMR,Cameroon,309.245,2925.905,0.18,0.003,0.331,29123748,100.46457619397064,Africa,Sub-Saharan Africa,Camerún
+COD,Democratic Republic of Congo,238.7,26035.693,0.794,0.013,0.054,109276264,238.25570208000522,Africa,Sub-Saharan Africa,República Democrática del Congo
+COG,Congo,191.077,1881.965,0.122,0.002,1.396,6332969,297.16946348545207,Africa,Sub-Saharan Africa,Congo
+COK,Cook Islands,2.685,2.685,0,0,5.824,13750,195.27272727272728,Oceania,East Asia & Pacific,Islas Cook
+COL,Colombia,3802.047,24334.633,0.901,0.015,1.752,52886360,460.13060834589487,Americas,Latin America & Caribbean,Colombia
+COM,Comoros,7.513,13.79,0.001,0,0.637,866632,15.912174948536403,Africa,Sub-Saharan Africa,Comoras
+CPV,Cape Verde,16.916,21.048,0.001,0,1.131,524878,40.100747221259034,Africa,Sub-Saharan Africa,Cabo Verde
+CRI,Costa Rica,285.803,2485.696,0.08,0.001,1.708,5129909,484.54972593081084,Americas,Latin America & Caribbean,Costa Rica
+CUB,Cuba,1814.111,5795.804,0.158,0.003,2.226,10979781,527.8615302072054,Americas,Latin America & Caribbean,Cuba
+CUW,Curacao,531.974,NA,0.014,0,12.344,185482,NA,Americas,Latin America & Caribbean,Curazao
+CXR,Christmas Island,1.33,NA,0,0,NA,NA,NA,Oceania,East Asia & Pacific,Isla de Navidad
+CYP,Cyprus,321.552,271.718,0.012,0,5.374,1358287,200.04461501876997,Asia,Europe & Central Asia,Chipre
+CZE,Czechia,12331.785,12006.457,0.382,0.006,7.044,10735857,1118.351054787708,Europe,Europe & Central Asia,Chequia
+DEU,Germany,95135.68,94907.508,2.921,0.049,6.769,84552234,1122.4719148165855,Europe,Europe & Central Asia,Alemania
+DJI,Djibouti,21.121,27.193,0.004,0,0.483,1168726,23.267215754590897,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Yibuti
+DMA,Dominica,5.494,3.614,0,0,2.58,66226,54.57071240902365,Americas,Latin America & Caribbean,Dominica
+DNK,Denmark,4199.661,5573.946,0.183,0.003,4.746,5977417,932.5007775097505,Europe,Europe & Central Asia,Dinamarca
+DOM,Dominican Republic,869.154,2468.29,0.085,0.001,2.899,11427558,215.99452831479832,Americas,Latin America & Caribbean,República Dominicana
+DZA,Algeria,5476.568,6544.149,0.335,0.006,4.234,46814302,139.78952415011977,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Argelia
+ECU,Ecuador,1391.196,5814.552,0.243,0.004,2.535,18135478,320.6175210821573,Americas,Latin America & Caribbean,Ecuador
+EGY,Egypt,7471.49,7805.938,0.368,0.006,2.217,116538256,66.98176434011506,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Egipto
+ERI,Eritrea,19.103,160.03,0.019,0,0.21,3535610,45.26234511159319,Africa,Sub-Saharan Africa,Eritrea
+ESP,Spain,15700.227,17728.5,0.612,0.01,4.599,47910533,370.0334538127555,Europe,Europe & Central Asia,España
+EST,Estonia,1668.452,1800.003,0.062,0.001,6.105,1360548,1322.9985270640948,Europe,Europe & Central Asia,Estonia
+ETH,Ethiopia,330.228,7353.446,0.517,0.009,0.135,132059770,55.68271094217414,Africa,Sub-Saharan Africa,Etiopía
+FIN,Finland,3324.779,6765.904,0.228,0.004,5.301,5617311,1204.4738131821437,Europe,Europe & Central Asia,Finlandia
+FJI,Fiji,54.066,98.947,0.007,0,1.556,928800,106.53208440999138,Oceania,East Asia & Pacific,Fiyi
+FRA,France,40047.566,35808.758,1.3,0.022,3.969,66548532,538.0848671462805,Europe,Europe & Central Asia,Francia
+FRO,Faroe Islands,33.661,NA,0.001,0,13.089,55419,NA,Europe,Europe & Central Asia,Islas Feroe
+FSM,Micronesia (country),4.858,4.858,0,0,1.331,113171,42.926191338770536,Oceania,East Asia & Pacific,Micronesia (country)
+GAB,Gabon,307.085,1071.79,0.072,0.001,2.126,2538953,422.1385744438751,Africa,Sub-Saharan Africa,Gabón
+GBR,United Kingdom,80079.445,79771.938,2.367,0.04,4.526,69138185,1153.8043412623574,Europe,Europe & Central Asia,RU
+GEO,Georgia,662.384,233.481,0.03,0.001,3.095,3807668,61.318633872490985,Asia,Europe & Central Asia,Georgia
+GHA,Ghana,426.536,2687.877,0.112,0.002,0.611,34427417,78.0737340823449,Africa,Sub-Saharan Africa,Ghana
+GIN,Guinea,105.936,2803.08,0.174,0.003,0.273,14754779,189.97776923666564,Africa,Sub-Saharan Africa,Guinea
+GMB,Gambia,17.677,73.955,0.006,0,0.291,2759999,26.795299563514334,Africa,Sub-Saharan Africa,Gambia
+GNB,Guinea-Bissau,8.285,238.994,0.013,0,0.155,2201360,108.56652251335538,Africa,Sub-Saharan Africa,Guinea-Bisáu
+GNQ,Equatorial Guinea,163.384,133.575,0.022,0,3.704,1892523,70.5803839636295,Africa,Sub-Saharan Africa,Guinea Ecuatorial
+GRC,Greece,4296.778,5287.402,0.179,0.003,5.311,10047813,526.2241644027412,Europe,Europe & Central Asia,Grecia
+GRD,Grenada,9.649,6.123,0,0,3.216,117218,52.23600470917436,Americas,Latin America & Caribbean,Granada
+GRL,Greenland,35.194,NA,0.001,0,11.08,55864,NA,Americas,Europe & Central Asia,Groenlandia
+GTM,Guatemala,515.766,4514.235,0.18,0.003,1.08,18406366,245.25400614113616,Americas,Latin America & Caribbean,Guatemala
+GUY,Guyana,117.342,624.342,0.034,0.001,5.427,831092,751.2309106573039,Americas,Latin America & Caribbean,Guyana
+HKG,Hong Kong,1750.301,NA,0.06,0.001,4.494,7414914,NA,Asia,East Asia & Pacific,Hong Kong
+HND,Honduras,310.24,3583.085,0.121,0.002,1.187,10825704,330.9793986608169,Americas,Latin America & Caribbean,Honduras
+HRV,Croatia,1184.689,1843.124,0.065,0.001,4.765,3875325,475.60501377303837,Europe,Europe & Central Asia,Croacia
+HTI,Haiti,88.844,815.294,0.043,0.001,0.252,11772562,69.25374442708393,Americas,Latin America & Caribbean,Haití
+HUN,Hungary,5183.893,5758.358,0.19,0.003,4.136,9676135,595.1093075902724,Europe,Europe & Central Asia,Hungría
+IDN,Indonesia,17419.934,86936.609,3.341,0.056,2.865,283487933,306.66775858851105,Asia,East Asia & Pacific,Indonesia
+IND,India,66072.531,105592.531,4.754,0.08,2.201,1450935785,72.77546814382278,Asia,South Asia,India
+IRL,Ireland,2366.426,2545.947,0.064,0.001,6.339,5255016,484.4794002530154,Europe,Europe & Central Asia,Irlanda
+IRN,Iran,21810.637,23454.725,1.062,0.018,8.656,91567737,256.1461686008468,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Irán
+IRQ,Iraq,5350.744,5844.444,0.493,0.008,5.074,46042015,126.93718986886216,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Irak
+ISL,Iceland,171.686,274.576,0.012,0,9.667,393404,697.9491820113675,Europe,Europe & Central Asia,Islandia
+ISR,Israel,2607.636,2648.493,0.099,0.002,5.607,9387015,282.1443238345736,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Israel
+ITA,Italy,26005.943,26140.309,0.882,0.015,5.088,59342870,440.49620451454405,Europe,Europe & Central Asia,Italia
+JAM,Jamaica,485.202,658.866,0.023,0,2.959,2839182,232.0619107897979,Americas,Latin America & Caribbean,Jamaica
+JOR,Jordan,793.394,857.614,0.035,0.001,2.01,11552885,74.2337520022055,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Jordania
+JPN,Japan,69612.281,74886.641,2.137,0.036,7.772,123753041,605.1297034389644,Asia,East Asia & Pacific,Japón
+KAZ,Kazakhstan,14937.44,18967.291,0.824,0.014,13.937,20592574,921.0743154304071,Asia,Europe & Central Asia,Kazajistán
+KEN,Kenya,551.307,3192.033,0.198,0.003,0.376,56432946,56.56328840248744,Africa,Sub-Saharan Africa,Kenia
+KGZ,Kyrgyzstan,883.216,1245.74,0.06,0.001,1.638,7186014,173.35618884126862,Asia,Europe & Central Asia,Kirguistán
+KHM,Cambodia,251.61,3511.238,0.184,0.003,1.241,17638804,199.06326982260248,Asia,East Asia & Pacific,Camboya
+KIR,Kiribati,2.329,2.329,0,0,0.539,134521,17.313281941109565,Oceania,East Asia & Pacific,Kiribati
+KNA,Saint Kitts and Nevis,8.035,4.376,0,0,5.542,46867,93.37060191606034,Americas,Latin America & Caribbean,San Cristóbal y Nieves
+KOR,South Korea,20707.549,20972.07,0.655,0.011,11.286,51717587,405.51137855677604,Asia,East Asia & Pacific,Corea del Sur
+KWT,Kuwait,3875.923,3875.93,0.209,0.004,26.248,4934508,785.4744586491703,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Kuwait
+LAO,Laos,243.008,2639.207,0.114,0.002,3.14,7769823,339.6740183141881,Asia,East Asia & Pacific,Laos
+LBN,Lebanon,794.725,805.765,0.031,0.001,2.696,5805962,138.78234132431456,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Líbano
+LBR,Liberia,52.521,1113.558,0.054,0.001,0.153,5612813,198.39570639534935,Africa,Sub-Saharan Africa,Liberia
+LBY,Libya,2489.88,2550.426,0.153,0.003,8.842,7381029,345.5380001894045,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Libia
+LCA,Saint Lucia,16.455,15.853,0.001,0,2.987,179751,88.19422423241039,Americas,Latin America & Caribbean,Santa Lucía
+LIE,Liechtenstein,9.961,9.38,0,0,3.299,39895,235.1171826043364,Europe,Europe & Central Asia,Liechtenstein
+LKA,Sri Lanka,567.871,2245.985,0.107,0.002,0.901,23103561,97.21380180310732,Asia,South Asia,Sri Lanka
+LSO,Lesotho,72.33,196.16,0.011,0,1.1,2337428,83.92130153313813,Africa,Sub-Saharan Africa,Lesoto
+LTU,Lithuania,1610.091,2866.291,0.097,0.002,4.387,2859112,1002.5109194742984,Europe,Europe & Central Asia,Lituania
+LUX,Luxembourg,783.031,776.032,0.023,0,10.46,673042,1153.0216539235294,Europe,Europe & Central Asia,Luxemburgo
+LVA,Latvia,980.751,1838.996,0.054,0.001,3.452,1871874,982.4357836050931,Europe,Europe & Central Asia,Letonia
+MAC,Macao,57.529,NA,0.002,0,1.467,720270,NA,Asia,East Asia & Pacific,Macao
+MAR,Morocco,2015.669,3543.1,0.157,0.003,1.814,38081176,93.040719120649,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Marruecos
+MCO,Monaco,NA,NA,NA,NA,NA,38657,NA,Europe,Europe & Central Asia,Mónaco
+MDA,Moldova,1358.364,1435.494,0.049,0.001,1.755,3034967,472.9850439889462,Europe,Europe & Central Asia,Moldavia
+MDG,Madagascar,112.654,5198.355,0.245,0.004,0.142,31964960,162.6266699535992,Africa,Sub-Saharan Africa,Madagascar
+MDV,Maldives,33.654,33.657,0.001,0,4.369,527801,63.768352087245006,Asia,South Asia,Maldivas
+MEX,Mexico,22015.852,36005.91,1.312,0.022,3.523,130861001,275.1462217532632,Americas,Latin America & Caribbean,México
+MHL,Marshall Islands,4.008,4.008,0,0,4.112,37572,106.67518364739699,Oceania,East Asia & Pacific,Islas Marshall
+MKD,North Macedonia,538.001,945.819,0.028,0,3.631,1823011,518.8224316803354,Europe,Europe & Central Asia,Macedonia del Norte
+MLI,Mali,100.196,1729.983,0.101,0.002,0.285,24478597,70.67329063017786,Africa,Sub-Saharan Africa,Mali
+MLT,Malta,111.223,106.157,0.003,0,3.204,539612,196.72839002839078,Europe,"Middle East, North Africa, Afghanistan & Pakistan",Malta
+MMR,Myanmar,727.896,9119.754,0.654,0.011,0.58,54500086,167.33467172877488,Asia,East Asia & Pacific,Myanmar (Birmania)
+MNE,Montenegro,122.14,220.352,0.01,0,3.722,638481,345.1191186581903,Europe,Europe & Central Asia,Montenegro
+MNG,Mongolia,861.452,2076.162,0.211,0.004,12.86,3475541,597.3636910052276,Asia,East Asia & Pacific,Mongolia
+MOZ,Mozambique,211.22,4654.248,0.154,0.003,0.249,34631767,134.3924495680512,Africa,Sub-Saharan Africa,Mozambique
+MRT,Mauritania,99.863,143.661,0.024,0,1.013,5169403,27.79063655899917,Africa,Sub-Saharan Africa,Mauritania
+MSR,Montserrat,1.679,NA,0,0,6.022,4414,NA,Americas,Latin America & Caribbean,Montserrat
+MUS,Mauritius,133.211,136.504,0.006,0,3.677,1271171,107.38445102979851,Africa,Sub-Saharan Africa,Mauricio
+MWI,Malawi,57.557,1186.421,0.048,0.001,0.087,21655288,54.786664578185245,Africa,Sub-Saharan Africa,Malaui
+MYS,Malaysia,7042.41,20000.15,0.612,0.01,8.162,35557670,562.4707693164372,Asia,East Asia & Pacific,Malasia
+NAM,Namibia,87.2,219.85,0.029,0,1.145,3030127,72.55471470337712,Africa,Sub-Saharan Africa,Namibia
+NCL,New Caledonia,171.769,NA,0.005,0,18.064,292655,NA,Oceania,East Asia & Pacific,Nueva Caledonia
+NER,Niger,61.507,1336.058,0.112,0.002,0.117,27032417,49.42428936339655,Africa,Sub-Saharan Africa,Níger
+NGA,Nigeria,4710.83,15858.661,1.03,0.017,0.584,232679482,68.15668001186285,Africa,Sub-Saharan Africa,Nigeria
+NIC,Nicaragua,197.651,4525.616,0.159,0.003,0.814,6916136,654.3561318053896,Americas,Latin America & Caribbean,Nicaragua
+NIU,Niue,0.286,0.286,0,0,4.143,1841,155.35035306898425,Oceania,East Asia & Pacific,Niue
+NLD,Netherlands,12261.704,13325.155,0.446,0.007,6.297,18228740,730.9970409364553,Europe,Europe & Central Asia,Países Bajos
+NOR,Norway,2787.295,3832.95,0.132,0.002,6.668,5576656,687.3205017487182,Europe,Europe & Central Asia,Noruega
+NPL,Nepal,232.096,1625.845,0.136,0.002,0.633,29651054,54.83262078980396,Asia,South Asia,Nepal
+NRU,Nauru,5.074,5.074,0,0,5.13,11968,423.9639037433155,Oceania,East Asia & Pacific,Nauru
+NZL,New Zealand,2012.347,5134.638,0.293,0.005,6.229,5213942,984.7900110894981,Oceania,East Asia & Pacific,Nueva Zelanda
+OMN,Oman,1673.353,1678.531,0.117,0.002,15.651,5281542,317.81078329018305,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Omán
+PAK,Pakistan,5739.839,7749.273,0.711,0.012,0.716,251269160,30.840525753339566,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Pakistán
+PAN,Panama,360.476,2478.871,0.075,0.001,2.805,4515576,548.9600883696786,Americas,Latin America & Caribbean,Panamá
+PER,Peru,2161.823,7986.045,0.322,0.005,2.053,34217850,233.38827541765482,Americas,Latin America & Caribbean,Perú
+PHL,Philippines,3983.639,15282.421,0.679,0.011,1.51,115843663,131.92280530701106,Asia,East Asia & Pacific,Filipinas
+PLW,Palau,11.399,11.399,0,0,12.76,17719,643.3207291607879,Oceania,East Asia & Pacific,Palaos
+PNG,Papua New Guinea,209.709,1764.311,0.091,0.002,0.789,10576509,166.81411607554062,Oceania,East Asia & Pacific,Papúa Nueva Guinea
+POL,Poland,29043.918,29419.521,1.059,0.018,7.08,38539209,763.3659787879923,Europe,Europe & Central Asia,Polonia
+PRK,North Korea,5492.661,7021.745,0.237,0.004,2.36,26498832,264.98318869299595,Asia,East Asia & Pacific,Corea del Norte
+PRT,Portugal,2767.615,3196.389,0.121,0.002,3.409,10425291,306.5994992369997,Europe,Europe & Central Asia,Portugal
+PRY,Paraguay,208.53,4042.089,0.179,0.003,1.145,6929152,583.3454079229319,Americas,Latin America & Caribbean,Paraguay
+PSE,Palestine,77.991,76.708,0,0,0.87,5495447,13.958464161332099,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Palestina
+PYF,French Polynesia,35.02,NA,0.001,0,3.275,281816,NA,Oceania,East Asia & Pacific,Polinesia Francesa
+QAT,Qatar,2590.88,2592.199,0.127,0.002,41.271,3048429,850.3393059179007,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Catar
+ROU,Romania,8861.765,11851.871,0.373,0.006,3.605,19015096,623.2874659165539,Europe,Europe & Central Asia,Rumanía
+RUS,Russia,122808.227,227020.625,7.027,0.118,12.295,144820421,1567.6009186577355,Europe,Europe & Central Asia,Rusia
+RWA,Rwanda,37.316,410.777,0.026,0,0.143,14256573,28.81316568855643,Africa,Sub-Saharan Africa,Ruanda
+SAU,Saudi Arabia,19020.34,19206.338,0.778,0.013,20.379,33962751,565.5118456099154,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Arabia Saudí
+SDN,Sudan,517.017,2696.176,0.261,0.004,0.353,50448960,53.44363887778856,Africa,Sub-Saharan Africa,Sudán
+SEN,Senegal,300.599,764.943,0.056,0.001,0.762,18501988,41.34382748491676,Africa,Sub-Saharan Africa,Senegal
+SGP,Singapore,2247.705,2253.547,0.078,0.001,9.245,5832387,386.3850255478589,Asia,East Asia & Pacific,Singapur
+SHN,Saint Helena,0.422,NA,0,0,2.165,5262,NA,Africa,NA,Santa Elena
+SLB,Solomon Islands,11.61,208.666,0.004,0,0.36,819206,254.7173726754931,Oceania,East Asia & Pacific,Islas Salomón
+SLE,Sierra Leone,42.62,1332.727,0.065,0.001,0.166,8642029,154.21459474389636,Africa,Sub-Saharan Africa,Sierra Leona
+SLV,El Salvador,264.574,861.456,0.04,0.001,1.416,6338197,135.91499285995687,Americas,Latin America & Caribbean,El Salvador
+SMR,San Marino,NA,NA,NA,NA,NA,33606,NA,Europe,Europe & Central Asia,San Marino
+SOM,Somalia,41.932,1126.775,0.092,0.002,0.069,19009155,59.275385991644555,Africa,Sub-Saharan Africa,Somalia
+SPM,Saint Pierre and Miquelon,3.896,NA,0,0,9.788,5652,NA,Americas,North America,San Pedro y Miquelón
+SRB,Serbia,2924.891,3374.983,0.127,0.002,6.238,6736217,501.02052828761305,Europe,Europe & Central Asia,Serbia
+SSD,South Sudan,45.531,1656.514,0.154,0.003,0.142,11943410,138.69690482031513,Africa,Sub-Saharan Africa,Sudán del Sur
+STP,Sao Tome and Principe,4.015,-0.41,0,0,0.602,235548,-1.7406218690033455,Africa,Sub-Saharan Africa,Santo Tomé y Príncipe
+SUR,Suriname,128.76,259.324,0.011,0,4.709,634438,408.7460082781927,Americas,Latin America & Caribbean,Surinam
+SVK,Slovakia,4028.322,4528.094,0.147,0.002,5.283,5506759,822.2793116604522,Europe,Europe & Central Asia,Eslovaquia
+SVN,Slovenia,911.402,1215.837,0.044,0.001,6.018,2118692,573.8620809442807,Europe,Europe & Central Asia,Eslovenia
+SWE,Sweden,5134.554,7555.962,0.244,0.004,3.592,10606993,712.3566499949609,Europe,Europe & Central Asia,Suecia
+SWZ,Eswatini,44.612,189.937,0.008,0,0.841,1242829,152.82633411354257,Africa,Sub-Saharan Africa,Esuatini
+SXM,Sint Maarten (Dutch part),62.223,NA,0.002,0,16.546,43372,NA,Americas,Latin America & Caribbean,Sint Maarten
+SYC,Seychelles,16.113,16.113,0.001,0,5.003,130436,123.53184703609433,Africa,Sub-Saharan Africa,Seychelles
+SYR,Syria,2055.815,2480.463,0.103,0.002,1.288,24672758,100.53448422750306,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Siria
+TCA,Turks and Caicos Islands,7.606,NA,0,0,8.136,46563,NA,Americas,Latin America & Caribbean,Islas Turcas y Caicos
+TCD,Chad,51.343,804.152,0.174,0.003,0.139,20299131,39.615094853075234,Africa,Sub-Saharan Africa,Chad
+TGO,Togo,76.631,697.511,0.035,0.001,0.328,8406554,82.972285671394,Africa,Sub-Saharan Africa,Togo
+THA,Thailand,8308.318,25176.127,0.93,0.016,3.736,71668010,351.2882107372592,Asia,East Asia & Pacific,Tailandia
+TJK,Tajikistan,517.798,640.888,0.04,0.001,1.014,10590930,60.51291057536968,Asia,Europe & Central Asia,Tayikistán
+TKM,Turkmenistan,2741.633,2923.369,0.176,0.003,10.809,7494494,390.06889591211893,Asia,Europe & Central Asia,Turkmenistán
+TLS,East Timor,12.137,121.303,0.012,0,0.477,1400638,86.60553262156246,Asia,East Asia & Pacific,Timor-Leste
+TON,Tonga,4.922,7.769,0.001,0,1.464,104192,74.56426597051598,Oceania,East Asia & Pacific,Tonga
+TTO,Trinidad and Tobago,1710.969,1696.766,0.066,0.001,22.932,1507778,1125.3420596400797,Americas,Latin America & Caribbean,Trinidad y Tobago
+TUN,Tunisia,1066.189,1438.67,0.065,0.001,2.661,12277103,117.1831823843133,Africa,"Middle East, North Africa, Afghanistan & Pakistan",Túnez
+TUR,Turkey,12887.552,19524.531,0.702,0.012,5.865,87473800,223.20433089679423,Asia,Europe & Central Asia,Turquía
+TUV,Tuvalu,0.297,0.297,0,0,1.183,9669,30.716723549488055,Oceania,East Asia & Pacific,Tuvalu
+TWN,Taiwan,10091.911,NA,0.319,0.005,11.301,23213964,NA,Asia,East Asia & Pacific,Taiwán
+TZA,Tanzania,344.851,7593.55,0.325,0.005,0.292,68560162,110.7574687469379,Africa,Sub-Saharan Africa,Tanzania
+UGA,Uganda,131.384,2339.345,0.146,0.002,0.127,50015091,46.77278303862328,Africa,Sub-Saharan Africa,Uganda
+UKR,Ukraine,31236.496,44320.211,1.359,0.023,3.764,37860221,1170.62737166801,Europe,Europe & Central Asia,Ucrania
+URY,Uruguay,476.757,1032.709,0.137,0.002,2.354,3386583,304.9412933331326,Americas,Latin America & Caribbean,Uruguay
+USA,United States,434866.562,560542,17.651,0.296,14.197,345426566,1622.7530108381993,Americas,North America,EE. UU.
+UZB,Uzbekistan,6750.655,7137.678,0.356,0.006,3.829,36361859,196.29573944500473,Asia,Europe & Central Asia,Uzbekistán
+VAT,Vatican,NA,NA,NA,NA,NA,507,NA,Europe,Europe & Central Asia,Ciudad del Vaticano
+VCT,Saint Vincent and the Grenadines,7.967,9.368,0,0,2.541,100630,93.09351088144689,Americas,Latin America & Caribbean,San Vicente y las Granadinas
+VEN,Venezuela,7886.474,13404.176,0.597,0.01,4.085,28405544,471.88591072221675,Americas,Latin America & Caribbean,Venezuela
+VGB,British Virgin Islands,6.261,NA,0,0,4.874,39498,NA,Americas,Latin America & Caribbean,Islas Vírgenes Británicas
+VNM,Vietnam,5668.876,14823.627,0.684,0.011,3.673,100987685,146.7864819358915,Asia,East Asia & Pacific,Vietnam
+VUT,Vanuatu,5.547,90.284,0.004,0,0.601,327786,275.43580262732394,Oceania,East Asia & Pacific,Vanuatu
+WLF,Wallis and Futuna,0.866,NA,0,0,2.699,11303,NA,Oceania,NA,Wallis y Futuna
+WSM,Samoa,7.77,14.554,0.001,0,1.126,218031,66.75197563649206,Oceania,East Asia & Pacific,Samoa
+YEM,Yemen,708.031,744.745,0.062,0.001,0.249,40583173,18.35107866011364,Asia,"Middle East, North Africa, Afghanistan & Pakistan",Yemen
+ZAF,South Africa,22826.967,29695.523,0.993,0.017,6.872,64007187,463.94044781252455,Africa,Sub-Saharan Africa,Sudáfrica
+ZMB,Zambia,300.839,5011.35,0.201,0.003,0.565,21314962,235.1094972630024,Africa,Sub-Saharan Africa,Zambia
+ZWE,Zimbabwe,832.914,2934.448,0.102,0.002,0.824,16634366,176.4087672472759,Africa,Sub-Saharan Africa,Zimbabue
